@@ -1,0 +1,84 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "firstname": "John",
+      "lastname": "Smith",
+      "gender": "male",
+      "phone": "1234567890",
+      "email": "john.smith@example.com"
+    },
+    {
+      "id": "2",
+      "firstname": "Emily",
+      "lastname": "Jones",
+      "gender": "female",
+      "phone": "9876543210",
+      "email": "emily.jones@example.com"
+    },
+    {
+      "id": "3",
+      "firstname": "Michael",
+      "lastname": "Brown",
+      "gender": "male",
+      "phone": "4567891230",
+      "email": "michael.brown@example.com"
+    },
+    {
+      "id": "4",
+      "firstname": "Sarah",
+      "lastname": "Davis",
+      "gender": "female",
+      "phone": "7894561230",
+      "email": "sarah.davis@example.com"
+    },
+    {
+      "id": "5",
+      "firstname": "James",
+      "lastname": "Wilson",
+      "gender": "male",
+      "phone": "8527419630",
+      "email": "james.wilson@example.com"
+    },
+    {
+      "id": "6",
+      "firstname": "Sophia",
+      "lastname": "Taylor",
+      "gender": "female",
+      "phone": "9632587410",
+      "email": "sophia.taylor@example.com"
+    },
+    {
+      "id": "7",
+      "firstname": "William",
+      "lastname": "Martinez",
+      "gender": "male",
+      "phone": "7418529630",
+      "email": "william.martinez@example.com"
+    },
+    {
+      "id": "8",
+      "firstname": "Olivia",
+      "lastname": "Anderson",
+      "gender": "female",
+      "phone": "1593574560",
+      "email": "olivia.anderson@example.com"
+    },
+    {
+      "id": "9",
+      "firstname": "David",
+      "lastname": "Thomas",
+      "gender": "male",
+      "phone": "3579514560",
+      "email": "david.thomas@example.com"
+    },
+    {
+      "id": "10",
+      "firstname": "Isabella",
+      "lastname": "Moore",
+      "gender": "female",
+      "phone": "9517534560",
+      "email": "isabella.moore@example.com"
+    }
+  ]
+}

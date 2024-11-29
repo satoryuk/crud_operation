@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExpressJS CRUD</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Management</h1>
+      <form action="" id="userForm">
+        <div class="con-top">
+          <img src="image.png" alt="" />
+          <div class="input-name">
+            <label for="First name">First Name<span>*</span></label>
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="Enter your first name"
+              required
+            />
+            <label for="last name">Last Name<span>*</span></label>
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder="Enter your last name"
+              required
+            />
+          </div>
+        </div>
+        <div class="con-btu">
+          <label for="gender">Gender<span>*</span></label>
+          <select id="gender" name="gender" required>
+            <option value="" disabled selected>Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <label for="phone-number">Mobile Phone<span>*</span></label>
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            placeholder="Enter your phone number"
+            required
+          />
+          <label for="email">Email<span>*</span></label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="youremailexample22@gmail.com"
+            required
+          />
+        </div>
+        <div class="btn">
+          <button type="submit" id="btnAdd">Add</button>
+          <button type="reset" id="btnClear">Clear</button>
+          <button id="btnUpdate">Update</button>
+          <button id="btnDelete">Detele</button>
+        </div>
+      </form>
+      <table id="userTable">
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Gender</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script>
+      document
+        .getElementById("btnUpdate")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+        });
+
+      document
+        .getElementById("btnDelete")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+        });
+    </script>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>
